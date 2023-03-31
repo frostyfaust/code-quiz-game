@@ -1,0 +1,70 @@
+body {
+  background-color: #ffdeb4;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  border-color: black;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 20%;
+  margin: 15px auto;
+}
+
+.divCenter {
+  text-align: center;
+  margin-top: 220px;
+}
+
+#answerChoices {
+  display: grid;
+  justify-content: center;
+}
+
+.timerDiv {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+}
+
+.buttonStyling {
+  padding: 15px;
+  font-size: larger;
+  background-color: mediumpurple;
+  color: white;
+  border-radius: 15px;
+}
+
+.disappear {
+  display: none;
+}
+
+.btnStyling {
+  padding: 15px 100px;
+  margin: 10px 29px;
+  background-color: mediumpurple;
+  border-radius: 10px;
+  color: white;
+  font-size: larger;
+}
+
+li:nth-child(even) {
+  background-color: lightslategray;
+}
+
+.hoverButton:hover {
+  background-color: hotpink;
+}
+
+.highscore-list-style {
+  background-color: white;
+  margin: 1px 448px;
+  list-style: none;
+  border-radius: 6px;
+  border: 2px solid black;
+}

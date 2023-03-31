@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <title>Quiz Game</title>
+  </head>
+  <body>
+    <header>
+      <button class="buttonStyling" id="view">View Highscores</button>
+      <div class="buttonStyling timerDiv disappear" id="timeClock"></div>
+    </header>
+    <main>
+      <!--starting screen div-->
+      <div class="divCenter" id="startDiv">
+        <h2>Coding Quiz Game</h2>
+        <p>
+          Try your hand at this quick coding quiz game and test your knowledge
+          about fundamental coding questions.
+        </p>
+        <button id="startButton" class="buttonStyling">Start Game</button>
+      </div>
+
+      <!--quiz question div-->
+      <div class="disappear divCenter" id="questionDiv">
+        <h2 id="questions"></h2>
+        <div id="answerChoices"></div>
+        <hr />
+        <div id="result"></div>
+      </div>
+
+      <!--End of quiz div-->
+      <div class="disappear divCenter" id="endOfQuizDiv">
+        <h1>You're all done!</h1>
+        <h3 id="highscore"></h3>
+        <input type="text" placeholder="John Doe" id="name" />
+        <button id="submitScore">Submit</button>
+      </div>
+
+      <!--List of highscore div-->
+      <div class="disappear divCenter" id="highscoreDiv">
+        <h1>🥇 Highscores 🥇</h1>
+        <ol id="highscoreList"></ol>
+        <button class="buttonStyling" id="restart">Restart</button>
+      </div>
+    </main>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

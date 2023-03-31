@@ -3,6 +3,7 @@
 A simple coding quiz game
 
 # Mock-up
+![frostyfaust github io_code-quiz-game_ (1)](https://user-images.githubusercontent.com/55112932/229022242-6bac37c8-9923-45c7-b374-fdcaf3e0ff65.png)
 
 # Link to live site
 [Coding Quiz Game](https://frostyfaust.github.io/code-quiz-game/)

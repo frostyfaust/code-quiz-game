@@ -5,7 +5,7 @@ A simple coding quiz game
 # Mock-up
 
 # Link to live site
-[Random Password Generator](https://frostyfaust.github.io/Random-Password-Gen/)
+[Coding Quiz Game](https://frostyfaust.github.io/code-quiz-game/)
 
 ## Why I made this site
 I created this site so that I could display my skills using Javcascript and Web APIs. While visiting this site, the user will be able to start a quick multiple choice coding quiz. As the user answers the questions, they are shown whether the answer they chose was correct or not. Once the user finishes the game, their score is given and can be logged upon the user submitting their name. The user is allowd to restart the game once finished with a click of a button. The buttons make the quiz a clean and simple, user-friendly game that is simple to traverse.  
